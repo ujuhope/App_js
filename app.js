@@ -10,11 +10,11 @@ var comfort = {
     maritalStatus: "single",
     occupation: "Doctor",
     salary: "three hundred thousand naira",
-    BMI: function(weight, height){
+    calculateBMI: function(weight, height){
       console.log(weight/(height * height));
     }
 
 }
 console.log(comfort.name);
 console.log(comfort.height);
-comfort.BMI(70);
+comfort.calculateBMI(70);
