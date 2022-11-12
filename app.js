@@ -5,13 +5,13 @@
 // and a function that takes the weight and prints the person's BMI
 var comfort = {
     name: "comfort",
-    height: "2m",
+    height: 2,
     gender: "female",
     maritalStatus: "single",
     occupation: "Doctor",
     salary: "three hundred thousand naira",
-    calculateBMI: function(weight, height){
-      console.log(weight/(height * height));
+    calculateBMI: function(weight){
+      console.log(weight/(this.height * this.height));
     }
 
 }
