@@ -18,3 +18,4 @@ var comfort = {
 console.log(comfort.name);
 console.log(comfort.height);
 comfort.calculateBMI(70);
+ 

@@ -24,8 +24,15 @@ var classStudentsDetails = [
 
 ];
 
-for(var i = 0;  i < classStudentsDetails.length; i++){
-console.log("My name is" + " " + classStudentsDetails[i] .name + "," +
- " " + "I am"+ " " + classStudentsDetails [i].age + " " + "years old"+
- " " + "and I am in" + " " + classStudentsDetails[i] .class);
-} 
+// for(var i = 0;  i < classStudentsDetails.length; i++){
+// console.log("My name is" + " " + classStudentsDetails[i] .name + "," +
+//  " " + "I am"+ " " + classStudentsDetails [i].age + " " + "years old"+
+//  " " + "and I am in" + " " + classStudentsDetails[i] .class);
+// } 
+for(var i=classStudentsDetails.length -1; i>=0; i-- ){
+    console.log("My name is" + " " + classStudentsDetails[i] .name + "," +
+    " " + "I am"+ " " + classStudentsDetails [i].age + " " + "years old"+
+    " " + "and I am in" + " " + classStudentsDetails[i] .class)
+
+}
+
