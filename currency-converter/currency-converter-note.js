@@ -9,6 +9,7 @@ function currencyToDollarConverter(){
     switch(currencyToTrade){
         case "USD":
             toDollarAmount = 1 * amount;
+            break;
         case "GBP":
             toDollarAmount = 1.5 * amount;
             break;
