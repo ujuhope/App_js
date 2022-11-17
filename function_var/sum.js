@@ -31,9 +31,9 @@ function totalAccontBal(){
         acctBal:600
     }
 ]
-var totalBalance = 0;
-for(var i =0; i < acctBal.length; i ++){
-    totalBalance = totalBalance + acctBal[i];
+var totalBalance = 600 + 450 + 300+ 200;
+for(var i =0; i < studentList.length; i ++){
+    totalBalance = totalBalance + studentList[i];
 }
     console.log(totalBalance)
 
